@@ -1,2 +1,2 @@
-# html-css-resp-wannabe
+# Responsive Wannabe
 A website that desperately strives to be responsive.
