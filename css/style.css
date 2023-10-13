@@ -142,22 +142,42 @@ img {
 @media screen and (max-width: 480px) {
     
     .container{
-        width: 100vh;
+        max-width: 100%;
     }
     
-    section{
-       width: 100%; 
-    }
-    
-    .row{
-        /* width: 100%; */
-        flex-direction: column;
-        gap: 20px;
-    }
-    .col{
-       /*  width: 100%; */
+    .lessons.text-center{
+        padding: 10px;
+
     }
 
+    .row {
+        flex-direction: column;
+        gap: 70px;
+    }
+
+    .row .col {
+        width: 100%;
+    }
+
+
+    .steps.text-center, section.why-us{
+        margin-bottom: 0;
+    }
+
+    .why-us .container .text-center{
+        padding-top: 50px;
+        font-size: 40px;
+    }
+
+    div.col.col-right{
+        padding-top: 30px;
+    }
+
+    .why-us .container:last-of-type{
+        background-color: #222222
+    }
+
+    
     
 }
  /* /Mobile responsive */
