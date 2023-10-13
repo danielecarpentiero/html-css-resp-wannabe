@@ -138,4 +138,26 @@ img {
  /* /tablet responsive */
 
  /* Mobile responsive */
+
+@media screen and (max-width: 480px) {
+    
+    .container{
+        width: 100vh;
+    }
+    
+    section{
+       width: 100%; 
+    }
+    
+    .row{
+        /* width: 100%; */
+        flex-direction: column;
+        gap: 20px;
+    }
+    .col{
+       /*  width: 100%; */
+    }
+
+    
+}
  /* /Mobile responsive */
